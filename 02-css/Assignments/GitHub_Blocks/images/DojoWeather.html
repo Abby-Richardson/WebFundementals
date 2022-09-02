@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!-- saved from url=(0078)http://127.0.0.1:5500/WebFundementals/04-js/Assignments/DojoWeather/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="./DojoWeather_files/style.css">
+</head>
+<body>
+    <div id="nav-bar">
+        <h1>DojoWeather</h1>
+        <ul id="cities">
+            <li<a class="city-links" href="#">Burbank
+            <li<a class="city-links" href="#">Chicago
+            <li<a class="city-links" href="#">Dallas
+        </li<a></li<a></li<a></ul>
+    </div>
+    <div id="city-title">
+        <div>
+            <h2>San Jose</h2>
+        </div>
+        <div class="choose-temp">
+            <p id="show">show temperature in</p>
+            <select id="degrees">
+                <option>℃</option>
+                <option>℉</option>
+            </select>
+        </div>
+    </div>
+    <div id="main">
+        <div id="Today">
+            <div class="day-of-week">
+                <h3>Today</h3>
+                <img id="weather-icon" src="./DojoWeather_files/some_rain.png" alt="raining">
+                <p>some rain</p>
+            </div>
+            <div id="daily-temps">
+                <p id="high">24°</p>
+                <p id="low">18°</p>
+            </div>
+        </div>
+        <div id="Today">
+            <div class="day-of-week">
+                <h3>Tomorrow</h3>
+                <img id="weather-icon" src="./DojoWeather_files/some_sun.png" alt="sun">
+                <p>some sun</p>
+            </div>
+            <div id="daily-temps">
+                <p id="high">27°</p>
+                <p id="low">19°</p>
+            </div>
+        </div>
+        <div id="Today">
+            <div class="day-of-week">
+                <h3>Friday</h3>
+                <img id="weather-icon" src="./DojoWeather_files/some_clouds.png" alt="cloudy">
+                <p>some clouds</p>
+            </div>
+            <div id="daily-temps">
+                <p id="high">21°</p>
+                <p id="low">16°</p>
+            </div>
+        </div>
+        <div id="Today">
+            <div class="day-of-week">
+                <h3>Saturday</h3>
+                <img id="weather-icon" src="./DojoWeather_files/some_sun.png" alt="sun">
+                <p>some sun</p>
+            </div>
+            <div id="daily-temps">
+                <p id="high">26°</p>
+                <p id="low">21°</p>
+            </div>
+        </div>
+    </div>
+    <div id="cookie-box">
+        <img src="./DojoWeather_files/cookie.png" alt="cookie icon">
+        <div>
+            <h4>Stop! Cookie time</h4>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="http://127.0.0.1:5500/WebFundementals/04-js/Assignments/DojoWeather/index.html#">Read more...</a></p>
+        </div>
+        <button id="accept">I Accept</button>
+    </div>
+    <script src="./DojoWeather_files/script.js"></script>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>

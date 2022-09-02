@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PuppyGram</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="nav-bar">
+        <h1>PuppyGram</h1>
+        <div>
+            <input type="text" id="search-bar" placeholder="Search a puppy name">
+            <button onclick="searchPuppy('search-bar')" id="search-btn">Search!</button>
+            <button id="login-btn">Login</button>
+        </div>
+    </div>
+    <div id="container">
+        <div id="column1">
+            <div class="puppybox1">
+                <div id="junior">
+                    <img src="./pictures/puppy.jpeg" alt="puppy">
+                    <h2>Junior</h2>
+                    <em>Male</em>
+                    <p id="breed">Breed: <em>Fox</em></p>
+                    <button id="junior-btn">10 likes</button>
+                </div>
+                <div><p>Junior is a very spontaneous, high-energy <a href="Fox">Fox</a> who loves to eat food </p></div>
+            </div>
+            <div class="puppybox1">
+                <div id="junior">
+                    <img src="./pictures/beagle.jpeg" alt="puppy">
+                    <h2>Fluffy</h2>
+                    <em>Female</em>
+                    <p id="breed">Breed: <em>Beagle</em></p>
+                    <button id="junior-btn">8 likes</button>
+                </div>
+                <div><p>Fluffy is a quiet, shy, and calm <a href="Fox">Beagle</a> who loves to eat and play fetch </p></div>
+            </div>
+        </div>
+        <div id="column2">
+            <div id="pup-upload">
+                <p>Please upload your pup info to our puppy social media!</p>
+                <button id="upload-btn">Upload new pup!</button>
+            </div>
+            <div id="weekly-video-box">
+                <p>Our popular video of the week!</p>
+                <video id="pup-video" src="./resources/puppy_video.mp4"></video>
+                <em>This is Josie, the playful beach dog!</em>
+            </div>
+        </div>
+    </div>
+    <div id="cookie-box">
+        <img id="caution" src="./icons/caution.jpeg" alt="caution symbol">
+        <p>I am here to delay your dopamine spike you will get while viewing puppies. Click accept to remove me and see more puppies.</p>
+        <button onclick="removeCookieBox('cookie-box')" id="accept-btn">Accept</button>
+    </div>   
+</body>
+<script src="script.js"></script>
+</html>

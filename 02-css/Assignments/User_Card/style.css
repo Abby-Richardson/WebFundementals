@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 320px;
+    width: 600px;
+    border: 3px solid lightgray;
+    display: flex;
+    margin: 125px 150px;
+    border-radius: 5px;
+}
+.top_container{
+    width: 608px;
+    height: 90px;
+    background-color: mediumseagreen;
+    border-radius: 3px;
+}
+
+#profile{
+    height: 90px;
+    margin-top: 45px;
+    margin-left: 30px;
+    border-radius: 50%;
+    border: 5px double white;
+    background-color: lightgray;
+}
+
+#name{
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+#pin{
+    height: 25px;
+    margin-left: 30px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#location{
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.bio{
+    margin-left: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#bio2{ 
+    margin-bottom: 10px;
+}
+
+#gear{
+    margin-left: 30px;
+    height: 20px;
+    display: inline-block;
+}
+
+#link{
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10px;  
+    color:rgb(18, 81, 216)
+}

@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    height: 800px;
+}
+
+#nav-bar{
+    margin: 0px 40px;
+    background-color: lightgray;
+    margin-bottom: 30px;
+}
+
+.nav-text{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 20px
+
+}
+
+#search-bar{
+    width: 250px;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+#nav-btn{
+    color: white;
+    background-color: royalblue;
+    padding: 5px 15px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 1px black;
+}
+
+#main{
+    height: 600px;
+    margin: 0px 40px;
+    display: flex;
+}
+#container1{
+    flex: 2;
+}
+#container2{
+    flex: 1;
+}
+
+#box1, #box2{
+    border: 2px solid black;
+    margin-right: 5px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+    gap: 5px
+}
+
+#links{
+    color: rgb(25,93,154);
+    font-weight: 600;
+}
+
+#box3{
+    border: 2px solid black;
+    width: 195px;
+    padding: 15px;
+    margin-left: 10px;
+}
+
+#you{
+    font-weight:900;
+}
+
+#definition-btn{
+    padding: 5px 25px;
+    margin-top: 15px;
+    background-color: rgb(147,196,125);
+    border: 2px solid black;
+    box-shadow: 3px 3px 1px black;
+}
+
+#definition-btn>a{
+    color: black;
+    text-decoration: none;
+}
+#box2{
+    margin-top: 25px;
+}
+
+
+.column1{
+    width: 180px;
+    text-align: center;
+}
+
+.column1>h2{
+    font-size: 32px;
+}
+.ninja1{
+    padding: 10px;
+}
+
+#button1{
+    color: black;
+    background-color:gold;
+    padding: 5px 15px;
+    border: 2px solid black;
+    box-shadow: black 3px 3px 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#yellow-btn{
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}

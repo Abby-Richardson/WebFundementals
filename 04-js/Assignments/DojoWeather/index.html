@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="nav-bar">
+        <h1>DojoWeather</h1>
+        <div id="cities">
+            <div>
+                <a class="city-links" href="#" onclick="alert('Loading weather report...')">Burbank</a>
+            </div>
+            <div>
+                <a class="city-links" href="#" onclick="alert('Loading weather report...')">Chicago</a>
+            </div>
+            <div>
+                <a class="city-links" href="#" onclick="alert('Loading weather report...')">Dallas</a>
+            </div>
+        </div>
+    </div>
+    <div id="city-title">
+        <div>
+            <h2>San Jose</h2>
+        </div>
+        <div class="choose-temp">
+            <p id="show">show temperature in</p>
+            <select onchange="changeToFahrenheitTemp('daily-temps')" id="degrees">
+                <option value="C"><span>&#8451;</span></option>
+                <option value="F"><span>&#8457;</span></option>
+            </select>
+        </div>
+    </div>
+    <div id="main">
+        <div id="Today">
+            <div class="day-of-week">
+                <h3>Today</h3>
+                <img id="weather-icon" src="./assets/some_rain.png" alt="raining">
+                <p>some rain</p>
+            </div>
+            <div id="daily-temps">
+                <p id="high">24°</p>
+                <p id="low">18°</p>
+            </div>
+        </div>
+        <div id="Today">
+            <div class="day-of-week">
+                <h3>Tomorrow</h3>
+                <img id="weather-icon" src="./assets/some_sun.png" alt="sun">
+                <p>some sun</p>
+            </div>
+            <div id="daily-temps">
+                <p id="high">27°</p>
+                <p id="low">19°</p>
+            </div>
+        </div>
+        <div id="Today">
+            <div class="day-of-week">
+                <h3>Friday</h3>
+                <img id="weather-icon" src="./assets/some_clouds.png" alt="cloudy">
+                <p>some clouds</p>
+            </div>
+            <div id="daily-temps">
+                <p id="high">21°</p>
+                <p id="low">16°</p>
+            </div>
+        </div>
+        <div id="Today">
+            <div class="day-of-week">
+                <h3>Saturday</h3>
+                <img id="weather-icon" src="./assets/some_sun.png" alt="sun">
+                <p>some sun</p>
+            </div>
+            <div id="daily-temps">
+                <p id="high">26°</p>
+                <p id="low">21°</p>
+            </div>
+        </div>
+    </div>
+    <div id="cookie-box">
+        <img src="./assets/cookie.png" alt="cookie icon">
+        <div>
+            <h4>Stop! Cookie time</h4>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+        </div>
+        <button id="accept" onclick="removeBox('cookie-box')" >I Accept</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+Button{
+    display: block;
+    margin-bottom: 10px;
+}
+
+#search-btn{
+    color: royalblue;
+    border-color: royalblue;
+    width: 100px;
+    border-radius: 15px;
+}
+
+#plus-btn{
+    color:darkblue;
+    background-color: aqua;
+    border-radius: 50%;
+    border-color: aqua;
+    height: 30px;
+    width: 30px;
+}
+
+#Acct-btn{
+    color: antiquewhite;
+    background-color: dodgerblue;
+    width: 150px;
+    box-shadow: 3px 3px 1px black;
+    border-color: black;
+}

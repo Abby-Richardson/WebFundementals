@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="nav-bar">
+        <ul class="nav-text">
+            <h1>Dojonary</h1>
+            <li><input type="text" placeholder="Search" id="search-bar"></li>
+            <button onclick="togglelogin(this)" id="nav-btn">Login</button>
+        </ul>
+    </div>
+    <div id="main">
+        <div id="container1">
+            <div id="box1">
+                <div class="column1">
+                    <h2 class="ninja1">ninja</h2>
+                    <em class="ninja1">noun</em>
+                    <p class="ninja1">Plural: <em>ninjas</em></p>
+                    <button onclick="alert('Ninja was liked')" id="button1"><a href="#" id="yellow-btn">13 likes</a></button>
+                </div>
+                <p>A practitioner skilled in the 
+                    <a href="#" id="links">Japanese</a> art of <a href="#" id="links">ninjutsu</a>
+                </p>
+            </div>
+            <div id="box2">
+                <div class="column1">
+                    <h2 class="ninja1">ninja</h2>
+                    <em class="ninja1">noun</em>
+                    <p class="ninja1">Plural: <em>ninjas</em></p>
+                    <button onclick="alert('Ninja was liked')" id="button1"><a href="#" id="yellow-btn">37 likes</a></button>
+                </div>
+                <p>A <a href="#" id="links">programmer</a> who breaks down problems with <a href="#"id="links">zen</a>-like focus
+                </p>
+            </div>
+        </div>
+        <div id="container2">
+            <div id="box3">
+                <h3>Dojonary is defined by <span id="you">YOU</span> </h3>
+                <button onclick="removebutton(this)" id="definition-btn"><a href="#">Add Definition</a></button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

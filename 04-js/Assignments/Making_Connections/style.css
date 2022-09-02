@@ -1,0 +1,259 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-bar{
+    background-color:rgb(89, 133, 108);
+    width: 900px;
+    height: 60px;   
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+#links{
+    display:inline-block;
+    display: flex;
+    list-style: none;
+    padding: 18px 15px;
+    margin-right: 200px;
+    margin-left: 70px;
+}
+
+#links a, h1{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}
+
+.nav-links{
+    display: inline-flex;
+    margin: 10px;
+}
+
+button{
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    /* color: white; */
+    background-color: rgb(6, 168, 193);
+    padding: 3px;
+    width: 75px;
+    justify-content: center;
+    border: rgb(6, 168, 193);
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px black;
+    margin-right: 100px;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+#profile-link{
+    font-weight: 700;
+}
+
+.main{
+    background-color:rgb(204, 204, 233);
+    height: 900px;
+    width: 900px;
+    display: flex;
+    
+}
+
+#column1{
+    flex: 2;
+    background-color: rgb(204, 204, 233);
+    height: 500px;;
+    margin-left: 100px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+#column2{
+    flex: 1;
+    height: 500px;
+    background-color: white;
+    margin-right: 100px;
+    margin-top: 40px;
+    background-color: rgb(204, 204, 233);
+}
+
+#card{
+    height: 275px;
+    width: 450px;
+    border: 2px solid lightgrey;
+    background-color: white;
+}
+
+#education{
+    width: 450px;
+    border: 2px solid lightgray;
+    margin-top: 20px;
+    background-color: white;
+}
+
+#education-header{
+    height: 40px;
+    width: 446px;
+    background-color:rgb(89, 133, 108);
+    color: white;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+#dojo{
+    margin-left: 25px;
+    margin-top: 15px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: large;
+}
+
+#dates{
+    margin-left: 25px;
+    color: gray;
+    font-size: medium;
+}
+
+#programs{
+    margin-left: 25px;
+    margin-top: 5px;
+    font-size: medium;
+    padding-bottom: 15px;
+}
+
+.connection-requests{
+    width:225px;
+    padding-bottom: 5px;
+    border: 2px solid lightgray;
+    background-color: white;
+}
+#cr-header{
+    background-color: rgb(89, 133, 108);
+    height: 50px;
+    width:246;
+    color: white;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.your-connections{
+    height: 235px;
+    width: 225px;
+    border: 2px solid lightgrey;
+    margin-top: 20px;
+    background: white;
+}
+
+.count{
+    background-color: rgb(6, 168, 193);
+    border-radius: 50%;
+    padding: 5px 10px;
+    color: black;
+    margin-right: 2px;
+}
+
+.other-people{
+    display: flex;
+    align-items: center;
+    /* margin: 15px; */
+    font-size: 18px;
+    padding: 5px 15px;
+}
+
+.accept-icon, .close-icon{
+    height: 20px;  
+    margin: 2px;
+}
+
+.todd{
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+span{
+    margin-right: 10px; 
+}
+
+.last{
+    display: flex;
+    ;
+}
+
+#card-header{
+    background-color: rgb(6, 168, 193);
+    width: 446px;
+    height: 80px;
+}
+
+#card-photo{
+    height: 80px;
+    border-radius: 50%;
+    border: double white;
+    background-color: white;
+    position:relative;
+    top: 40px;
+    left: 25px;
+}
+
+#abby{
+    margin-top: 45px;
+    margin-left: 25px;
+    font-size:x-large
+}
+
+#pin {
+    margin-left: 25px;
+    height: 15px;
+    margin-top: 5px;
+}
+
+#bio{
+    margin-top: 5px;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+#bio2{
+    margin-top:2px;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+#gear>img{
+    margin-left: 25px;
+    margin-top: 10px;
+    height: 15px;
+}
+
+#profile-link2{
+    color: rgb(6, 168, 193);
+    margin-left: 5px;
+    padding-bottom: 5px;
+}
+
+.view{
+    /* border: 2px solid lightgray; */
+    background-color: white;
+    width: 221px;
+    padding: 7px;
+    border-top: 2px solid lightgray;
+
+}
+
+.view a{
+    color:rgb(6, 168, 193);
+    font-size: small;
+    margin-left: 10px;
+}
